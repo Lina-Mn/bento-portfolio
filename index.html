@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Lina Moumni Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="col-left">
+        <div class="row row1">
+          <span> Lina Moumni </span>
+        </div>
+        <div class="row row2">
+          <div class="row-col row2-left">
+            <div class="discp-col">
+              <div class="logo">
+                <img
+                  src="/assets/svg/flower.svg"
+                  alt="Line drawing of a flower"
+                  width="200px"
+                />
+              </div>
+              <div class="discp">
+                <p>
+                  <span> Software Engineer </span> pursuing a
+                  <span> PhD</span> in Computer Science,
+                  <!-- I crave for challenges & embrace continuous learning. -->
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row-col row2-right">
+            <!-- <img class="me-img" src="bento_portfolio_bw.png" alt="me" > -->
+            <!-- <img src="img.svg" alt="Writeln('Hello World!')" width="100%"> -->
+            <img class="me-img" src="/assets/YL7ZH5nT.png" alt="Writeln('Hello World!')" width="100%">
+          </div>
+        </div>
+        <div class="row row3">
+          <div class="row-col row3-left">
+            <!-- <h1> Technologies </h1> -->
+            <!-- <span> I worked on several projects using different technologies; </span> -->
+            <span>Technologies I tackled: </span>
+            <ul>
+              <li class="bc">
+                Blockchain Technology
+                <!-- : -->
+                <!-- <span>Ethereum, Truffle, Ganache.</span> -->
+              </li>
+              <li class="dl">
+                Deep Learning using Computer Vision
+                <!-- : -->
+                <!-- <span>Python.</span> -->
+              </li>
+              <li class="web">
+                Web applications
+                <!-- : -->
+                <!-- <span>Laravel, Nuxt, VueJs, HTML, CSS, JS.</span> -->
+              </li>
+              <li class="mob">
+                Mobile applications
+                <!-- :  -->
+                <!-- <span>React Native, Java.</span> -->
+              </li>
+            </ul>
+          </div>
+          <div class="row-col row3-right">
+            <div class="contact-mail">
+              <!-- <span> Contact me</span>
+                        <span> mail </span> -->
+            </div>
+            <div class="contact-hi">
+              <!-- <h1> Say Hi </h1> -->
+              <a href="mailto:lnmoumni.i@gmail.com"> Say Hi! </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-right">
+        <div class="row top">
+          <div class="projects-title">
+            <h1>Projects</h1>
+          </div>
+          <div class="projects-list">
+            <div class="project">
+              <h3 class="project-title" onclick="toggleDropdown(this)">
+                Human Activity Recognition
+                <span class="dropdown-icon">▼</span>
+              </h3>
+              <img
+                class="project-img"
+                src="/assets/projects/har.png"
+                alt="Project Preview"
+              />
+              <p class="project-desc" style="display: block">
+                a Deep Learning algorithm (ConvLSTM) to recognise human daily
+                activities (such as taking medicines, drinking water..) in real
+                time using computer vision (Microsoft’s Kinect v1), in order to
+                assist elderly people living alone.
+              </p>
+            </div>
+            <hr />
+            <div class="project">
+              <h3 class="project-title" onclick="toggleDropdown(this)">
+                Remote Monitoring & Management
+                <span class="dropdown-icon">▼</span>
+              </h3>
+              <img
+                class="project-img"
+                src="/assets/projects/cameramonitoring.png"
+                alt="Project Preview"
+              />
+              <p class="project-desc">
+                a Web application to monitor and manage security cameras
+                remotely.
+              </p>
+            </div>
+            <hr />
+            <div class="project">
+              <h3 class="project-title" onclick="toggleDropdown(this)">
+                Library Management
+                <span class="dropdown-icon">▼</span>
+              </h3>
+              <img
+                class="project-img"
+                src="/assets/projects/cameramonitoring.png"
+                alt="Project Preview"
+              />
+              <p class="project-desc">
+                a Desktop application for the management of subscribers
+                (registration, update, list of subscribers), books (purchase,
+                cataloguing, list of books) and subscriber services (loan,
+                return, reservation) in a Library.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row bottom">
+          <div>
+            <a href="https://www.linkedin.com/in/linamn/" target="_blank"
+              >LinkedIn</a
+            >
+          </div>
+          <div>
+            <a href="https://github.com/Lina-Mn" target="_blank">GitHub</a>
+          </div>
+          <div>
+            <a href="https://leetcode.com/u/LinaM/" target="_blank">LeetCode</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

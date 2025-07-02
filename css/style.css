@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+@font-face {
+  font-family: "RetroSignature";
+  src: url("../fonts/RetroSignature.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cervanttis";
+  src: url("../fonts/Cervanttis.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WhiteAngelica";
+  src: url("../fonts/WhiteAngelica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoMono";
+  src: url("../fonts/RobotoMono-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "FiraCode";
+  src: url("../fonts/FiraCode-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "GreatVibes";
+  src: url("../fonts/name/GreatVibes-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Allura";
+  src: url("../fonts/name/Allura-Regular.ttf");
+}
+
+@font-face {
+  font-family: "DancingScript";
+  src: url("../fonts/name/DancingScript-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #141414;
+  /* font-family: Georgia, 'Times New Roman', Times, serif !important; */
+}
+
+body {
+  min-height: 100vh;
+  background-color: #e6ded4; /* #eee */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display";
+}
+
+.container {
+  background-color: #fffcfe;
+  border-radius: 2em;
+  width: 1000px;
+  height: 700px;
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+}
+
+/* left column */
+.col-left {
+  flex: 2;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* right column */
+.col-right {
+  flex: 1;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+hr {
+  width: 85%;
+  margin: 0 auto;
+  color: #f4f4f4;
+}
+
+/* row 1,2,3 of left column */
+.row {
+  /* flex: 1; */
+  border-radius: 2em;
+}
+
+.row1 {
+  padding: 2% 0 2% 4%;
+  font-size: 1.5rem;
+  font-family: "WhiteAngelica", "RetroSignature", "Cervanttis", sans-serif;
+}
+
+.row2 {
+  flex: 3;
+  display: flex;
+  gap: 1em;
+}
+
+.row2-left {
+  display: flex;
+}
+
+.row2-right {
+  overflow: hidden;
+  position: relative;
+  /* border: 1px solid #c9a4a4; */
+  background-color: #e6ded4 !important;
+}
+
+.me-img {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2em;
+}
+
+.row-col {
+  flex: 1;
+  border-radius: 2em;
+  padding: 10px;
+}
+
+.row3 {
+  flex: 2;
+  display: flex;
+  gap: 1em;
+}
+
+.row3-right {
+  display: flex;
+  flex-direction: column;
+  background-color: #d4d2cf;
+}
+
+/* top and bottom of right column */
+.top {
+  /* border: 1px solid #ccc; */
+  border-radius: 2em;
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.bottom {
+  flex: 1;
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  /* font-family: 'Tenor Sans', sans-serif; */
+}
+
+/* --------------------- */
+
+h1 {
+  /* font-family: 'Playfair Display'; */
+}
+
+.row1 span {
+  font-size: 1.5rem;
+  font-style: oblique;
+}
+
+.surname {
+  font-weight: 600;
+}
+/* discription container */
+.discp-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.discp {
+  flex: 2;
+  padding: 2px;
+  text-align: justify;
+  font-size: 1.5rem;
+  align-content: baseline;
+  letter-spacing: 3px;
+  line-height: 1em;
+}
+
+.discp span {
+  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* Techs */
+.row3-left {
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  padding: 16px;
+}
+
+.row3-left span {
+  font-style: italic;
+  padding: 5px;
+}
+
+ul {
+  padding: 16px;
+  text-align: justify;
+  line-height: 24px;
+}
+
+/* contact me container */
+.contact-mail {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.contact-hi {
+  flex: 3;
+  align-content: center;
+  padding: 10px;
+}
+
+.contact-hi a {
+  text-decoration: none;
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+/* projects */
+.projects-title {
+  text-align: center;
+  /* font-size: 12px; */
+  letter-spacing: 2px;
+  padding-top: 12px;
+}
+
+.projects-list {
+  border-radius: 1em;
+  height: 100%;
+  /* align-content: top; */
+}
+
+.project {
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-title {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-icon {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.project-content,
+.project-img {
+  display: none;
+  margin-top: 10px;
+}
+
+.project-img {
+  max-width: 100%;
+}
+
+.project-desc {
+  display: none;
+  text-align: justify;
+}
+
+.row1,
+.row2-right,
+.row2-left,
+.row3-left,
+.top,
+.bottom {
+  background-color: #f4f4f4;
+}
